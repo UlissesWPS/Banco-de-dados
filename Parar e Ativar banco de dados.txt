@@ -1,0 +1,5 @@
+Parar e ativar
+pkplus-cli svc disable base:postgres && pkplus-cli svc enable base:postgres
+
+Reiniciar
+pkplus-cli svc reenable base:postgres
