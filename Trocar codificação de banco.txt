@@ -1,0 +1,1 @@
+UPDATE pg_database SET encoding =pg_char_to_encoding(‘LATIN1’) WHERE datname ='XXX';
