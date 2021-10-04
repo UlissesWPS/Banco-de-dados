@@ -1,0 +1,12 @@
+CENTOS5
+> Pegar o número do container postgres-service
+docker ps -a | grep postgres
+
+
+docker exec -it ***************** psql -d parkingplus -U postgres
+>>>>>>>>>>>>>>>>alterar nº docker
+
+CENTOS7
+
+psql -d parkingplus -U postgres -h ip do servidor
+

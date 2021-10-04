@@ -1,0 +1,2 @@
+update integracao_tag3__config_sis set valor='0' where chave='controlar_patio_credenciado_entrada' and id_tiposervico=8;
+update integracao_tag3__config_sis set valor='0' where chave='controlar_patio_credenciado_saida' and id_tiposervico=8;
