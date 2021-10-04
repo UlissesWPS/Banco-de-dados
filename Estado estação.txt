@@ -1,0 +1,1 @@
+SELECT id, enderecoip, versaoparkingplus, upsince from ppmestadoestacao;
