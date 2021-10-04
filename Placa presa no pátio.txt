@@ -1,0 +1,5 @@
+SELECT * from patio where placa = ''
+
+SELECT * from lot where cartao = ''
+
+DELETE FROM 
