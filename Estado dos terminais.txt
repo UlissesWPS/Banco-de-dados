@@ -1,0 +1,1 @@
+select ppm.idestacao, ppm.descricao, ppm.tipo, est.enderecoip, est.versaoparkingplus, est.upsince as conectado_desde, est.datahora as sincronismo from ppmestadoestacao est inner join ppmestacoes ppm on ppm.enderecoip = est.enderecoip order by enderecoip;
